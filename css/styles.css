@@ -14,11 +14,17 @@ body {
 }
 .link:hover,
 .link:focus {
-  color: #e7e9fc;
+  color: #777ba3;
 }
 
 .li {
-  list-style-type: none;
+  list-style: none;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+  background: #4d5ae5;
 }
 
 .visually-hidden {
@@ -42,7 +48,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: calc(24 / 18);
   /* display: flex; */
   align-items: center;
   letter-spacing: 0.03em;
@@ -57,7 +63,7 @@ body {
 }
 .menu {
   font-size: 16px;
-  line-height: 24px;
+  line-height: calc(24 / 16);
   letter-spacing: 0.02em;
 }
 .nav-right__menu {
@@ -69,7 +75,7 @@ body {
 .contacts {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: calc(24 / 16);
   letter-spacing: 0.02em;
 }
 .contacts_email {
@@ -87,14 +93,14 @@ body {
 .promo__title {
   width: 507px;
   font-size: 56px;
-  line-height: 60px;
+  line-height: calc(60 / 56);
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 .promo__button {
   font-size: 16px;
-  line-height: 19px;
+  line-height: calc(19 / 16);
   /* display: flex; */
   align-items: center;
   letter-spacing: 0.04em;
@@ -116,7 +122,7 @@ body {
 }
 .benefits__title {
   font-size: 20px;
-  line-height: 24px;
+  line-height: calc(24 / 20);
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -124,7 +130,7 @@ body {
   width: 264px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -133,7 +139,7 @@ body {
 }
 .presentation__title {
   font-size: 36px;
-  line-height: 40px;
+  line-height: calc(40 / 36);
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -148,7 +154,7 @@ body {
 }
 .team__title {
   font-size: 36px;
-  line-height: 40px;
+  line-height: calc(40 / 36);
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -162,7 +168,7 @@ body {
 }
 .team__name {
   font-size: 20px;
-  line-height: 24px;
+  line-height: calc(24 / 20);
   /* text-align: center; */
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -170,7 +176,7 @@ body {
 .team__job-title {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: calc(24 / 16);
   /* text-align: center; */
   letter-spacing: 0.02em;
   color: #434455;
@@ -183,7 +189,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: calc(21 / 18);
   /* display: flex; */
   align-items: center;
   letter-spacing: 0.03em;
@@ -194,7 +200,7 @@ body {
   width: 264px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
@@ -204,7 +210,7 @@ body {
 }
 .filter-btn {
   font-size: 16px;
-  line-height: 24px;
+  line-height: calc(24 / 16);
   /* display: flex; */
   align-items: center;
   text-align: center;
@@ -224,14 +230,14 @@ body {
 }
 .project-title {
   font-size: 20px;
-  line-height: 24px;
+  line-height: calc(24 / 20);
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .project-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: #434455;
 }
