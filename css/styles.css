@@ -3,7 +3,7 @@
 }
 :root {
   --white-color: #ffffff;
-  --accent-color: #777ba3;
+  --accent-color: #4d5ae5;
   --primary-brand-color: #4d5ae5;
   --dark-color: #2e2f42;
   --slate-text-color: #434455;
@@ -225,6 +225,7 @@ body {
   width: 586px;
 }
 .filter-btn {
+  font-weight: 500;
   font-family: inherit;
   font-size: 16px;
   line-height: calc(24 / 16);
@@ -256,12 +257,4 @@ body {
   color: var(--slate-text-color);
 }
 .projects-link {
-}
-.card-cashless {
-  background: var(--primary-brand-color);
-  font-size: 16px;
-  line-height: calc(24 / 16);
-  letter-spacing: 0.02em;
-  color: var(--cloud-color);
-  padding: 40px 32px 0 32px;
 }
